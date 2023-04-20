@@ -1,0 +1,104 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #040716;
+
+}
+.hero{
+  /* background-image: url(./img_files/cover.jfif); */
+  background-image: linear-gradient(to right, #060a1be8, rgba(19, 12, 12, 0.7)), url(./img_files/cover.jfif);
+  background-size: cover; /* or contain */
+  background-position: center; /* or adjust as needed */
+  
+  /* background-image: linear-gradient(to right, #0b143b, #400e20), url('path/to/image.jpg'); */
+  height: 120vh;
+}
+
+.boxwrapper{
+    width: 30%;
+    height: 50px;
+    outline: 0;
+    border: solid white;
+}
+
+ .inputs button{
+     height: 50px;
+     width: 16%;
+     font-size: 24px;
+    font-weight: bold;
+     background-color: red;
+    
+}
+.inputs .boxwrapper{
+    border-radius: 5px;
+    height: 50px;
+}
+
+ .bbox3 .box1{
+     width: 45%;
+     height: 80vh;
+     background-image: linear-gradient(to right, #0b143b, #400e20);
+     border-radius: 10px;
+    
+ }
+ .bbox3{
+     
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 20px;
+     margin-top: 20;
+    
+ }
+
+ 
+ .ox{
+    margin-top: -4%;
+ }
+
+ .bbox3 .box1 img{
+     width: 80%;
+     margin-top: 20px;
+ }
+
+ .imgt{
+     margin-left: 10%;
+    
+ }
+
+ .acc{
+     background-color: #0b143b;
+ }
+   
+.accordion{
+    margin: 30px auto 0 auto;
+    width: 75%;
+}
+.accordion-button{
+    background-color: #0b143b;
+    font-size: 20px;
+    height: 80px;
+    color: white;
+    font-weight: 600;
+}
+.accordion-button:focus{
+    background-color: #242c55c5;
+}
+.accordion-body{
+    background-color: #0b143b;
+    color: white;
+}
+.fre{
+    width: 75%;
+    margin: 0 auto;
+}
+
+li{
+   
+    list-style-type: none;
+}
+
+li a{
+    color: whitesmoke;
+}
+
